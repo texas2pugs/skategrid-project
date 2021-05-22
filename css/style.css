@@ -8,9 +8,7 @@
   --primary-beige: #efe6dd;
 
   --max-width: 1100px;
-}
 
-.category {
   --street-color: #521a10;
   --park-color: #410e38;
   --vert-color: #111d53;
@@ -165,6 +163,10 @@ h6 {
   padding: 3rem;
 }
 
+.l-heading {
+  font-size: 3rem;
+}
+
 .list li {
   padding: 0.5rem 0;
   width: 90%;
@@ -295,6 +297,24 @@ h6 {
   grid-column: 2 / span 2;
 }
 
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #dfd5cb;
+  padding: 0 0.5rem;
+}
+
+#article svg {
+  margin-top: 0.4rem;
+  width: 20px;
+}
+
+#article .meta .category {
+  margin-top: 0.4rem;
+}
+
+/* Footer */
 #main-footer {
   background: var(--primary-black);
   color: var(--primary-beige);
